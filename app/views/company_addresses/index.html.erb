@@ -1,0 +1,60 @@
+
+
+
+
+
+
+<div class="container" >
+<table id="company_addresses" class="display" style="width:100%">
+  <thead>
+  <tr>
+    <th>Company Name</th>
+    <th>Company Size</th>
+    <th>Category</th>
+    <th>address</th>
+    <th>latitude</th>
+    <th>longitude</th>
+    <th>location</th>
+    <th>bookmarked</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @addresses.each do |address|  %>
+    <tr>
+      <td><%= address.company_name %></td>
+      <td><%= address.company_size %></td>
+      <td><%= address.category %></td>
+      <td><%= address.street_number %>&nbsp;
+        <%= address.street_indicator %>&nbsp;
+        <%= address.street_type  %>&nbsp;
+        <%= address.street_label %>&nbsp;
+        <%= address.zip_code %>&nbsp;
+        <%= address.city  %></td>
+      <td><%= address.latitude %></td>
+      <td><%= address.longitude %></td>
+      <td><%= link_to "locate", "http://www.google.com/maps/place/"+address.latitude+","+address.longitude, target: :_blank %></td>
+      <td>
+        <% if address.bookmark_id.nil? %>
+          <%= link_to "Add to bookmarks", bookmark_path( company_address_id: address.adr_id), method: :post, :onclick =>'this.href=#'  %>
+        <% else %>
+          <%= link_to "remove from bookmarks", unmark_path( company_address_id: address.adr_id), method: :post, :data => {:confirm => 'Are you sure?'}, :onclick =>'this.href=#'%>
+        <% end %>
+      </td>
+    </tr>
+  <% end %>
+  </tbody>
+  <tfoot>
+  <tr>
+    <th>Company Name</th>
+    <th>Company Size</th>
+    <th>Category</th>
+    <th>address</th>
+    <th>latitude</th>
+    <th>longitude</th>
+    <th>location</th>
+    <th>bookmarked</th>
+  </tr>
+  </tfoot>
+</table>
+
+</div>

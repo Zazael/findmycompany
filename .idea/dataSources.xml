@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails TestProject_5.2: default" uuid="ce3ea4c4-77cf-47de-b899-310dd9d88ed0">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://92.222.77.250:5432/findmycompany</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails TestProject_5.2: test" uuid="e8f2a59b-20fc-44b3-9a13-683d200ec89b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://92.222.77.250:5432/findmycompany</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails TestProject_5.2: development" uuid="b9d845b0-7a2b-4bb2-9ca2-6be64fac3dae">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://92.222.77.250:5432/findmycompany</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails TestProject_5.2: cucumber" uuid="12ad3bd5-c47e-47f8-a31a-2e2c024e25ce">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://92.222.77.250:5432/findmycompany</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails TestProject_5.2: production" uuid="8dea6c98-f0b9-49f2-a649-f89ca2c9c43d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://92.222.77.250:5432/findmycompany</jdbc-url>
+    </data-source>
+  </component>
+</project>

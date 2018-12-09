@@ -1,0 +1,22 @@
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="https://envoy.com/images/icons/pin.svg" id="icon" alt="User Icon" />
+      <h1>Company Finder</h1>
+    </div>
+<div class="login">
+
+
+      <%= form_for(:session, url: login_path) do |f| %>
+        <%= f.email_field :email, :placeholder => "Email", class: "fadeIn second" %>
+        <%= f.password_field :password, :placeholder => "Password", class: "fadeIn third" %>
+        <%= f.submit "Log in", class: "btn-submit " , class:"fadeIn fourth"  %>
+      <% end %>
+</div>
+    </div>
+
+</div>

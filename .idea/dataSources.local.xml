@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails TestProject_5.2: default" uuid="ce3ea4c4-77cf-47de-b899-310dd9d88ed0">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <user-name>fmcuser</user-name>
+    </data-source>
+    <data-source name="Rails TestProject_5.2: test" uuid="e8f2a59b-20fc-44b3-9a13-683d200ec89b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <user-name>fmcuser</user-name>
+    </data-source>
+    <data-source name="Rails TestProject_5.2: development" uuid="b9d845b0-7a2b-4bb2-9ca2-6be64fac3dae">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <user-name>fmcuser</user-name>
+    </data-source>
+    <data-source name="Rails TestProject_5.2: cucumber" uuid="12ad3bd5-c47e-47f8-a31a-2e2c024e25ce">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <user-name>fmcuser</user-name>
+    </data-source>
+    <data-source name="Rails TestProject_5.2: production" uuid="8dea6c98-f0b9-49f2-a649-f89ca2c9c43d">
+      <database-info product="PostgreSQL" version="9.2.24" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2" dbms="POSTGRES" exact-version="9.2.24">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <user-name>fmcuser</user-name>
+      <introspection-schemas>@:@</introspection-schemas>
+    </data-source>
+  </component>
+</project>

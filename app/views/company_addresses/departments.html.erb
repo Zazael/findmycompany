@@ -1,0 +1,15 @@
+<div class="container separator  text-center">
+<%= form_tag("/addresses", method: "post") do %>
+<div class="container center-page">
+  <label for="info" > <% @zipcodes.each do |zip|  %>
+      <%= label_tag(:q, zip) %>
+      <%= check_box_tag('zip_codes[]',zip)%>
+
+      </label> |
+
+  <% end %>
+
+    </div>
+<%= submit_tag("Search") %>
+<% end %>
+</div>

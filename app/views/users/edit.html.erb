@@ -1,0 +1,25 @@
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="https://envoy.com/images/icons/pin.svg" id="icon" alt="User Icon" />
+      <h1>Company Finder</h1>
+    </div>
+    <div class="login">
+    <%= form_for(@user) do |f| %>
+
+      <%= f.label :password %>
+      <%= f.password_field :password_digest, class: 'form-control' %>
+
+      <%= f.label :password_confirmation, "Confirmation" %>
+      <%= f.password_field :password_confirmation, class: 'form-control' %>
+
+      <%= f.submit "Save changes", class: "btn btn-primary" %>
+    <% end %>
+    </div>
+  </div>
+
+</div>
